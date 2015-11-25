@@ -1,9 +1,9 @@
 This script turns a markdown file in the form: 
 
 ```md
-%Title
+%Here is a Title
 
-Hey! Here is a markdown paragraph. 
+Lorem ipsum doler stuff.
 ```
 
 Into an [MLA-style paper](https://owl.english.purdue.edu/owl/resource/747/13/i) in PDF format that looks like this: 
