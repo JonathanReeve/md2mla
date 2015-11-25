@@ -12,9 +12,13 @@ Into an [MLA-style paper](https://owl.english.purdue.edu/owl/resource/747/13/i) 
 
 #Usage
 
+First, edit `mla-template.tex` and enter your first name, last name, professor's name, and course name. Then run this command: 
+
 ```bash
 ./md2mla my-paper.md
 ```
+
+If all goes well, this should generate my-paper.md.pdf. If it doesn't, maybe you need pandoc or xelatex? 
 
 #Requirements
 This script requires pandoc and xelatex. On Ubuntu and Debian, you can probably just run: `sudo apt-get install pandoc texlive-xetex`.
